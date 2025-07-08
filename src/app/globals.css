@@ -123,6 +123,8 @@
 
 html,
 body {
+  background-color: #000; /* or your main dark color like #28394C */
+  overscroll-behavior: none; /* Prevents the "pull down" or "scroll up" bounce */
   margin: 0;
   padding: 0;
 }

@@ -6,13 +6,13 @@ export function HeroSection() {
   return (
     <section
       id="home"
-      className="relative h-screen w-full pt-[64px] bg-black font-sans"
+      className="relative h-screen w-full pt-[64px] bg-black font-sans overflow-hidden"
     >
       <Image
         src="https://images.unsplash.com/photo-1496247749665-49cf5b1022e9?w=1600&auto=format&fit=crop&q=80"
         alt="Concrete Construction Background"
         fill
-        className="object-cover opacity-60"
+        className="object-cover opacity-60 bg-black"
         quality={100}
         priority
         placeholder="blur"
@@ -25,12 +25,11 @@ export function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
           style={{ fontFamily: "Anton, sans-serif" }}
-         className="text-4xl md:text-5xl tracking-tight font-anton"
-
+          className="text-4xl md:text-5xl tracking-tight font-anton"
         >
-          <span>Төмөр</span>{" "}
-          <span style={{ fontSize: "48px", color: "#E38710" }}>&</span>{" "}
-          <span> Бетон Эдлэл</span>
+          <span className="font-bold">Төмөр</span>{" "}
+          <span style={{ fontSize: "40px", color: "#E38710", }}>&</span>{" "}
+          <span className="font-bold"> Бетон Эдлэл</span>
         </motion.h1>
 
         <motion.p

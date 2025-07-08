@@ -29,16 +29,17 @@ export function SiteHeader() {
           : "bg-transparent text-white"
       )}
     >
-      <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div className="max-w-6xl mx-auto px-10 py-3 flex items-center justify-between">
         <Link href="/" className="flex items-center space-x-2">
           <Image
             src="https://html.modernwebtemplates.com/precast/images/logo.png"
             alt="Company Logo"
-            width={32}
+            width={40}
             height={32}
+            
           />
-          <h1 className="text-xl font-bold" style={{ color: "#E38710" }}>
-            Төмөр Бетон
+          <h1 className="text-[30px] font-bold" style={{ color: "#E38710" }}>
+            Evt Ers
           </h1>
         </Link>
 
@@ -46,7 +47,7 @@ export function SiteHeader() {
           <a
             href="#home"
             style={{ color: scrolled ? "#E38710" : undefined }}
-            className="hover:underline"
+            className="hover:underline text-sm"
           >
             Нүүр
           </a>

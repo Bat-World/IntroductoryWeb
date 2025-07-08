@@ -19,7 +19,7 @@ export const WorksSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-0 max-w-[1024px] mx-auto">
           {/* 1. Tig Precast (Text left, Image right) */}
           <div className="flex w-full h-[270px]">
-            <div className="w-1/2 bg-[#1f212ce6] px-8 py-10 text-white flex flex-col justify-end">
+            <div className="w-1/2 bg-[#28394C] px-8 py-10 text-white flex flex-col justify-end">
               <h3 className="text-[24px] font-black leading-none">
                 <span className="text-[#E38710] font-black">Tig</span>{" "}
                 <span className="text-white">Precast</span>
@@ -72,7 +72,7 @@ export const WorksSection = () => {
                 className="object-cover"
               />
             </div>
-            <div className="w-1/2 bg-[#1f212ce6] px-8 py-10 text-white flex flex-col justify-end">
+            <div className="w-1/2 bg-[#28394C] px-8 py-10 text-white flex flex-col justify-end">
               <h3 className="text-[24px] font-black leading-none">
                 <span className="text-[#E38710] font-black">Tig</span>{" "}
                 <span className="text-white">Precast</span>
